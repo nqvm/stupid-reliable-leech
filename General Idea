@@ -1,9 +1,0 @@
-General outline:
-
-1. Scrape data
-2. Push through kafka
-3. Whack into a database
-4. Calculate variance
-5. Turn into risk
-6. Maybe some ML
-7. Profit????
