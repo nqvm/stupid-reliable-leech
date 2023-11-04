@@ -1,0 +1,1 @@
+21:50 - Failure. The nn took in both of our k pictures and told us it was a H with about 95% probability. Truly unfortunate. We will have to graph out the training and make sure there is no overfitting going on.
