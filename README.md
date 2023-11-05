@@ -26,7 +26,7 @@ import tensorflow as tf
 model = tf.keras.models.load_model("filepath/to/goated.keras")
 model.summary() # shows layers in model
 ```   
-This is further outlined on [this page](https://www.tensorflow.org/guide/keras/serialization_and_saving). To put in an input image, we must resize it in order to be accepted by the model. The code below shows how to take an input image, img.jpg:
+This is further outlined on [this page](https://www.tensorflow.org/guide/keras/serialization_and_saving). To put in an input image, we must resize it in order to be accepted by the model. The code below shows how to take an input image, `img.jpg`:
 ```
 image_path = 'path/to/img.jpg'
 image_size = [50,50]
