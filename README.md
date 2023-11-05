@@ -10,7 +10,8 @@ Durhack repository for team: stupid-reliable-leech.
 Based off of [this](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook).
 
 ## II How to use  
-**Input:** Single 28 x 28 pixel image with greyscale values between 0-255.
+**Input:** Single 28 x 28 pixel image with greyscale values between 0-255.  
+**Using the model:** Use goated.keras as outlined on [this page](https://www.tensorflow.org/guide/keras/serialization_and_saving).
 
 
 ### Important Links
