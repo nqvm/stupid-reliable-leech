@@ -11,3 +11,5 @@ pre-23:15 - Failure. We saw the graphs and the val_loss had super big spikes at 
 00:49 - We have decided to preprocess the images into a csv file, by first reading them in using tf, then making a df in pandas before exporting as a csv. We will then compress the images to 50x50 pixels, and if that doesn't improve the performance enough, 100x100 or maybe even 200x200. The nn will stay mostly the same, just take in more inputs this time.
 
 4:03 - I have been through hell. But we finally have the data preprocessed. The csv has been uploaded, Theo made one with ~40000 entries, I have one with 27000 entries. Now its time to try and fix it into the old NN.
+
+4:45 - We have inputted the data into the old model and fixed it up, we ran into a problem with the categorical_crossentropy and then realised twe needed to use the sparse_categorical_crossentropy instead. But then we realised that the binariser would make training even faster and we used that instead.
