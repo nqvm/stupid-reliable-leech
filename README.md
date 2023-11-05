@@ -1,6 +1,4 @@
 # Team stupid-reliable-leech Durhack 2023
-Durhack 2023 repository for team: stupid-reliable-leech.
-
 ![Our father, Daniel Chambers](https://github.com/nqvm/stupid-reliable-leech/blob/8808a928c147140689c88224ec6f149ef17f02fa/Daniel-Chambers-Feature.png)
 
 - [Durhack live](https://live.durhack.com/)  
