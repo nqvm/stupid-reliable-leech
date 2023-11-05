@@ -11,6 +11,8 @@
 ## I Introduction  
 For our 24-hour hack we created a convoluted neural network (CNN) model (goated.keros) that takes images of ASL signs for letters of the alphabet, and returns the letter represented. We developed a web interface for this, where users could take photos of their signs to communicate more easily with others online. Our CNN model was developed on [this example](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook). We trained it on 50 x 50 pixel images with greyscale values between 0-255.
 
+goated.keros was our original model, with 20 epochs. goated2.keros underwent 30 epochs.
+
 ## II How to use the website
 
 ## III How to use the CNN without the website
