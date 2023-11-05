@@ -1,1 +1,13 @@
 21:50 - Failure. The nn took in both of our k pictures and told us it was a H with about 95% probability. Truly unfortunate. We will have to graph out the training and make sure there is no overfitting going on.
+
+pre-23:15 - Failure. We saw the graphs and the val_loss had super big spikes at the end, we also realised that the nn was still classifying everything wrong. We realised a big issue was the loss and accuracy were both really good even on the first epoch, with acc > 0.98 right off the bat.
+
+23:15 - Ooooooh. The first epoch started at a more reasonable accuracy, getting loss: 1.2039, accuracy: 0.6262. To do this we added a ReduceLRonPlateau callback. Lets hope the training works.
+
+~23:30 - The new model performs much better than before, the loss and  accuracy graphs are now lovely, the accuracy stays high and the loss stays low, drawing out an asymptotic curve. The model can now identify 'easier' signs well, but it has problems identifying the more ambiguous signs, like M and E, which are just variants of a balled fist.
+
+23:50 - We have discovered a dataset that has 200x200 pixel images of ASL signs, with over 87000 rows!!! Amazing!!! This extra resolution should be able to fix the models issue of not being able to see the subtle differences in the thumb positions in some images. 
+
+00:49 - We have decided to preprocess the images into a csv file, by first reading them in using tf, then making a df in pandas before exporting as a csv. We will then compress the images to 50x50 pixels, and if that doesn't improve the performance enough, 100x100 or maybe even 200x200. The nn will stay mostly the same, just take in more inputs this time.
+
+4:03 - I have been through hell. But we finally have the data preprocessed. The csv has been uploaded, Theo made one with ~40000 entries, I have one with 27000 entries. Now its time to try and fix it into the old NN.
