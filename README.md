@@ -1,6 +1,7 @@
 # Team stupid-reliable-leech Durhack 2023
 ![Our father, Daniel Chambers](https://github.com/nqvm/stupid-reliable-leech/blob/8808a928c147140689c88224ec6f149ef17f02fa/Daniel-Chambers-Feature.png)
-![Bathroom selfie](https://photos.app.goo.gl/yXVPJN9quwJKdKsZ9)
+![Bathroom selfie]([https://photos.app.goo.gl/yXVPJN9quwJKdKsZ9](https://github.com/nqvm/stupid-reliable-leech/blob/a766ed9391ef7d8b40dc7fd3b5ca2adcbe948324/PXL_20231104_171111151.jpg))
+![jpg of a banana](
 
 - [Durhack live](https://live.durhack.com/)  
 - [Megateams](https://megateams.durhack.com/hacker)
