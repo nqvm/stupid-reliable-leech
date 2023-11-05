@@ -1,7 +1,7 @@
 # Team stupid-reliable-leech Durhack 2023
 
 ![Bathroom selfie](https://github.com/nqvm/stupid-reliable-leech/blob/a766ed9391ef7d8b40dc7fd3b5ca2adcbe948324/PXL_20231104_171111151.jpg)
-![jpg of a banana](https://github.com/nqvm/stupid-reliable-leech/blob/5dc99f147bb6f4da38dd1a7572ab14dc1738d59d/jpg-of-a-banana.jpg)
+![The letter h, according to our model!](https://github.com/nqvm/stupid-reliable-leech/blob/5dc99f147bb6f4da38dd1a7572ab14dc1738d59d/jpg-of-a-banana.jpg "The letter H in ASL, according to goated.keros")
 
 - [Durhack live](https://live.durhack.com/)  
 - [Megateams](https://megateams.durhack.com/hacker)
