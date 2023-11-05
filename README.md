@@ -14,7 +14,7 @@ For our 24-hour hack we created a convoluted neural network (CNN) model (goated.
 goated.keros was our original model, with 20 epochs. goated2.keros underwent 30 epochs.
 
 ## II How to use the website
-
+...
 ## III How to use the CNN without the website
 **Input:** Single 50 x 50 pixel image with greyscale values between 0-255.  
 **Using the model:**  First, load the model:
