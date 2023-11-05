@@ -9,7 +9,7 @@ Durhack repository for team: stupid-reliable-leech.
 - [MLH Prizes (not all of 'em)](https://hack.mlh.io/durhack-2023-4f/prizes)
 
 ## I Introduction  
-CNN (goated.keros) model was developed on [this](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook). This CNN model was trained on 50 x 50 pixel images, with greyscale values between 0-255.
+Our Convoluted Neural Network (CNN) model (goated.keros) was developed on [this example](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook). We trained it on 50 x 50 pixel images with greyscale values between 0-255.
 
 ## II How to use the website
 
@@ -19,6 +19,7 @@ CNN (goated.keros) model was developed on [this](https://www.kaggle.com/code/mad
 ```
 import tensorflow as tf
 model = tf.keras.models.load_model("filepath/to/goated.keras")
+model.summary() # shows layers in model
 ```   
 This is further outlined on [this page](https://www.tensorflow.org/guide/keras/serialization_and_saving). To put in an input image, we must resize it in order to be accepted by the model. The code below shows how to take an input image, img.jpg:
 ```
