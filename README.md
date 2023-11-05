@@ -1,6 +1,8 @@
 # stupid-reliable-leech
 Durhack repository for team: stupid-reliable-leech.
 
+!(https://github.com/nqvm/stupid-reliable-leech/blob/8808a928c147140689c88224ec6f149ef17f02fa/Daniel-Chambers-Feature.png)
+
 - [Durhack live](https://live.durhack.com/)  
 - [Megateams](https://megateams.durhack.com/hacker)
 - [Devpost](https://durhack-2023.devpost.com/)
