@@ -36,6 +36,7 @@ pred = model.predict(data.reshape(-1, 50, 50, 1)) # reshape to be accepted by mo
 pred_arr = np.array(pred[0])
 
 # Link to letter predictions, and print 3 most likely letters according to the model.
+
 letterpred = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'nothing']
 
 letter_prediction_dict = {letterpred[i]: predarray[i] for i in range(len(letterpred))}
