@@ -18,8 +18,8 @@ CNN developed based on [this](https://www.kaggle.com/code/madz2000/cnn-using-ker
 
 ### Important Links
 
-- https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook#Loading-the-ASL-dataset
-- https://www.kaggle.com/datasets/datamunge/sign-language-mnist
-- https://towardsdatascience.com/sign-language-recognition-with-advanced-computer-vision-7b74f20f3442
-- https://www.kaggle.com/code/ryanholbrook/the-convolutional-classifier
-- 
+- [Inspiration and starting point for CNN](https://www.kaggle.com/code/madz2000/cnn-using-keras-100-accuracy/notebook#Loading-the-ASL-dataset)
+- [^ same](https://towardsdatascience.com/sign-language-recognition-with-advanced-computer-vision-7b74f20f3442)
+- [First dataset used](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
+- [Second (and larger) dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data)
+- [CNN Tutorial](https://www.kaggle.com/code/ryanholbrook/the-convolutional-classifier)
